@@ -64,12 +64,15 @@ class RagChain:
 
         # Set the prompt template
         self.prompt_template = self.prompt_template or """
-        You will be provided with questions and related data. 
+        Question: 
+        {question} 
+        Context: 
+        {context}
+        Instructions:
+        Answer the users question using the context above.
         Your task is to find the answers to the questions using the given data. 
         If the data doesn't contain the answer to the question, then you must return 'Tokios informacijos nėra duomenų rinkinyje.'
-        Question: {question} 
-        Context: {context} 
-        Answer:
+        Return the answer without aditional "answers:" or "Answer:" prefixes.
         """
 
         # Create the prompt

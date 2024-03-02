@@ -14,7 +14,7 @@ questions = [
     "Pacituok lietuvių liaudies eilėraštį 'Du gaideliai'", 
     "Pacituok lietuvių liaudies eilėraštį 'Trys gaideliai'",
     "Pacituok lietuvių liaudies eilėraštį 'Saule vire'",
-    "Kokie yra donos 'Du gaideliai' žodžiai?"
+    "Kokie yra dainos 'Du gaideliai' žodžiai?"
 ]
 
 # Define ground truths
