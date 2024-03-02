@@ -33,4 +33,4 @@ def process_message(user_message):
     return rag_chain.invoke(user_message)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

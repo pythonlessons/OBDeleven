@@ -3,11 +3,14 @@
 ## How to run the project
 - Create a virtual environment:
 ```bash
-python3 -m venv venv
+python -m venv venv
 ```
 - Activate the virtual environment:
 ```bash
+# ubuntu:
 source venv/bin/activate
+# windows
+.\venv\Scripts\activate
 ```
 - Install the dependencies:
 ```bash
